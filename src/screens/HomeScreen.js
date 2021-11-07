@@ -41,6 +41,12 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate("Square");
         }}
       />
+      <Button
+        title="Go to Handle Text Demo"
+        onPress={() => {
+          navigation.navigate("Text");
+        }}
+      />
     </View>
   );
 };
